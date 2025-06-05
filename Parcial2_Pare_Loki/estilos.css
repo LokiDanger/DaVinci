@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600&family=Patrick+Hand&family=Playpen+Sans:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald';
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/pattern.jpg);
+}
+ul{
+    float: right;
+}
+ul li{
+    display: inline;
+    padding: 5px;
+}
+ul li a{
+    color: black;
+}
+#form-contacto{
+    padding: 30px;
+    background-image: url(img/contacto.png);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
